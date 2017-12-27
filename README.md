@@ -1,6 +1,6 @@
 
 
-### 分级标题
+### 分级标题('#')
 \#+空格+一级标题  
 # 一级标题  
 \##+空格+二级标题  
@@ -15,18 +15,18 @@
 ###### 六级标题  
 
 ---
-### 空格  
+### 空格(' ')
 1空格 = N空格/1换行 建议：1空格  
 N空格 =
 
 ---
-### 换行  
+### 换行(' '+'回车')  
 1换行 = 2空格+1换行 建议：2空格+1换行  
 2换行 = 2换行 建议：2换行  
 N换行 =
 
 ---
-### 强调  
+### 强调(*_~)
 \*斜体* 或者 \_斜体_  
 *斜体*，_斜体_  
 
@@ -40,7 +40,7 @@ N换行 =
 ~~删除线~~
 
 ---
-### 区块引用
+### 区块引用(>)
 > 一一一一一一一一一一    
 二二二二二二二二二二   
 三三三三三三三三三三  
@@ -54,15 +54,16 @@ N换行 =
 十十十十十十十十十十  
 
 ---
-### 代码区块
+### 代码区块(tab)
+
 	void main()
 	{
-	printf("Hello, Markdown.");
+		printf("Hello, Markdown.");
 	}
 	#include <stdio.h>
 
 ---
-### 无序列表
+### 无序列表(- + *)
 - 第一项  
 - 第二项
 + 第一项
@@ -71,12 +72,12 @@ N换行 =
 * 第二项
 
 ---
-### 有序列表
+### 有序列表('1. ')
 1. 第一项  
 2. 第二项
 
 ---
-### 表格
+### 表格('|-')
 学号|姓名|分数
 -|-|-
 小明|男|75
@@ -91,31 +92,21 @@ ___
 \*** --- ___
 
 ---
-### 文字连接
-欢迎来到[梵居闹市](http://blog.leanote.com/freewalk)
-欢迎来到[梵居闹市](http://blog.leanote.com/freewalk "梵居闹市")
-
-我经常去的几个网站[Google][1]、[Leanote][2]以及[自己的博客][3]
-[Leanote 笔记][2]是一个不错的[网站][]。
-[1]:http://www.google.com "Google"
-[2]:http://www.leanote.com "Leanote"
-[3]:http://http://blog.leanote.com/freewalk "梵居闹市"
-[网站]:http://http://blog.leanote.com/freewalk
+### 文字连接('[]()')
+欢迎来到[梵居闹市-停留没提示](http://blog.leanote.com/freewalk)
+欢迎来到[梵居闹市-停留有提示](http://blog.leanote.com/freewalk "梵居闹市")
 
 ---
-### 图片链接
+### 图片链接('![]()')
 ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
 
-![美丽花儿][flower]
-[flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "美丽花儿"
-
 ---
-### 自动链接
+### 自动链接('<>')
 <http://example.com/>
 
 ---
 ### 锚点
-\## 0. 目录{#index}  
+\## 0. 目录{#index}    
 跳转到[目录](#index)
 
 ---
@@ -123,7 +114,7 @@ ___
 在段落中填写 [TOC] 以显示全文内容的目录结构。
 
 ---
-### 反转义作用  
+### 反转义作用(/)
 \!\[图片名称]\(图片地址)  
 \>>反转义作用  
 \***  
@@ -133,4 +124,5 @@ ___
 ### 标记作用 
 `ctrl+a`
 
-Fork或借鉴请注明出处 [@ HeavenBin](https://github.com/HeavenBin/MarkdownCourse)
+---
+###Fork或借鉴请注明出处 [@ HeavenBin](https://github.com/HeavenBin/MarkdownCourse)
