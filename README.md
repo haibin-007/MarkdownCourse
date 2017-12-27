@@ -92,12 +92,12 @@ ___
 \*** --- ___
 
 ---
-### 文字连接('[]()')
+### 文字连接('\[\]\(\)')
 欢迎来到[梵居闹市-停留没提示](http://blog.leanote.com/freewalk)
 欢迎来到[梵居闹市-停留有提示](http://blog.leanote.com/freewalk "梵居闹市")
 
 ---
-### 图片链接('![]()')
+### 图片链接('\!\[\]\(\)')
 ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
 
 ---
@@ -121,8 +121,8 @@ ___
 \- 变成普通符号  
 
 ---
-### 标记作用 
+### 标记作用 (``)
 `ctrl+a`
 
 ---
-###Fork或借鉴请注明出处 [@ HeavenBin](https://github.com/HeavenBin/MarkdownCourse)
+### Fork或借鉴请注明出处 [@ HeavenBin](https://github.com/HeavenBin/MarkdownCourse)
