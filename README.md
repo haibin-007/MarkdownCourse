@@ -71,6 +71,25 @@ N换行 =
 \`\`\`
 
 ---
+### \<pre>
+
+<pre>
+├── build                        // webpack配置目录
+│   ├── utils.js     		         // 工具文件
+│   ├── config.js     		       // 配置文件
+│   ├── webpack.config.base.js   // 基础构建
+│   ├── webpack.config.dev.js    // 开发模式构建
+│   ├── webpack.config.prod.js   // 生产模式构建
+├── dist               		       // 生产目录
+├── src                		       // 开发目录
+├── .babelrc                		 // babel配置
+├── .editorconfig                // editorconfig配置
+├── .eslintignore                // eslint排除的检测范围
+├── .eslintrc.js                 // eslint配置
+├── postcss.config.js            // postcss配置
+</pre>  
+
+---
 ### 无序列表(-/+/* 加空格)
 - 第一项  
 - 第二项
